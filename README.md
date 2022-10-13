@@ -8,6 +8,10 @@
 
 ![Ekran görüntüsü tablolar](https://user-images.githubusercontent.com/88820048/194358016-2ffeddd7-c350-4e83-a8bd-66464a0d9836.png)
 
-<h3><i>Tables Example</i><h3>
+<h3><i>Tables Example 2</i><h3>
 
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/88820048/195624289-d1014c7c-8786-4ff0-bfbc-72f78491849b.PNG)
+
+<h3><i>Tables Example 3</i><h3>
+
+![tables_ex](https://user-images.githubusercontent.com/88820048/195633369-6498a32b-5b18-494d-9762-82204e1a481c.PNG)
