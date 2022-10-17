@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sticky Nav Bar</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <ul id="menu">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVİCES</li>
+                <li>PRODUCTS</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <center>
+        <table width="1100" height="200" border="0">
+            <tr>
+                <td align="center">
+                    <img src="images/macbook_air.jpeg" width="500" height="300">
+                </td>
+                <td align="center">
+                    <h1>Macbook Air</h1>
+                    <br>
+                    <b><p>erspiciatis unde omnis iste natus error <br>
+                        sit voluptatem accusantium doloremque laudantium,<br>
+                        totam rem aperiam, eaque ipsa quae ab illo<br> 
+                        sed quia consequuntur magni dolores eos qui r</p></b>
+                        
+                        <br>
+                        <br>
+                        
+                        <h1 align="left">1025$</h1>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <table width="1100" height="200" border="0 ">
+            <tr>
+                <td align="center">
+                    <h1>Macbook Air White</h1>
+                    <br>
+                    <b><p>erspiciatis unde omnis iste natus error <br>
+                        sit voluptatem accusantium doloremque laudantium,<br>
+                        totam rem aperiam, eaque ipsa quae ab illo<br> 
+                        sed quia consequuntur magni dolores eos qui r</p></b>
+                        
+                        <br>
+                        <br>
+                        
+                        <h1 align="right">1025$</h1>
+                </td>
+                <td align="center">
+                    <img src="images/macbook_pro_white.jpg" width="450" height="280">
+                </td>
+                
+            </tr>
+        </table>
+
+    </center>
+    
+    <br>
+
+    <p class="text">
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+        nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate
+        velit esse quam nihil molestiae consequatur,
+        vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    </p>
+
+    <script>
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+
+        window.onscroll = function(){
+            if(window.pageYOffset == menu.offsetTop){
+                navbar.classList.add("sticky");
+            }
+            else
+            {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+</html>
