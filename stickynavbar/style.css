@@ -19,3 +19,20 @@ nav {
     padding: 20px 0;
     text-align: center;
 }
+
+.logo {
+    width: 150px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+nav ul {
+    background: #000;
+    width: 100%;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
