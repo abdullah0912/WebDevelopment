@@ -34,5 +34,10 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    
+    margin: 20px 30px;
+    color: #fff;
+}
+
+.text {
+    padding: 20px 8%;
 }
