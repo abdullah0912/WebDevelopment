@@ -5,10 +5,11 @@
     font-family: 'poppins' sans-serif;
 }
 
-.header{
+.header {
     width: 100;
     height: 100vh;
     background: url(images/image.png);
     background-position: center;
-    backf
+    background-size: cover;
+
 }
