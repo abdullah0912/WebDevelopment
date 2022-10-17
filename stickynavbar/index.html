@@ -10,9 +10,9 @@
 
 <body>
     <div class="header">
-        <nav>
+        <nav id="navbar">
             <img src="images/logo.png" class="logo">
-            <ul>
+            <ul id="menu">
                 <li>HOME</li>
                 <li>ABOUT</li>
                 <li>SERVİCES</li>
@@ -73,6 +73,21 @@
         velit esse quam nihil molestiae consequatur,
         vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
     </p>
+
+    <script>
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+
+        window.onscroll = function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navbar.classList.add("sticky");
+            }
+            else
+            {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 
 </body>
 </html>
