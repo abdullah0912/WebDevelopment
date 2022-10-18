@@ -86,7 +86,7 @@ nav.sticky ul {
   .button2 {
     background-color: blueviolet; 
     border: 2px solid blueviolet;
-    padding: 3px 350px;
+    padding: 3px 400px;
     border-radius: 9999px;
     cursor: auto;
   }
@@ -94,7 +94,23 @@ nav.sticky ul {
   .button3 {
     background-color: #817878; 
     border: 2px solid #817878;
-    padding: 3px 200px;
+    padding: 3px 300px;
+    border-radius: 9999px;
+    cursor: auto;
+  }
+
+  .button4 {
+    background-color: blueviolet; 
+    border: 2px solid blueviolet;
+    padding: 3px 400px;
+    border-radius: 9999px;
+    cursor: auto;
+  }
+
+  .button5 {
+    background-color: #817878; 
+    border: 2px solid #817878;
+    padding: 3px 25px;
     border-radius: 9999px;
     cursor: auto;
   }
