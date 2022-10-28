@@ -20,3 +20,5 @@
 
 
 https://user-images.githubusercontent.com/88820048/195842653-1451e538-47b5-4d7f-9647-85fcdef65109.mp4
+
+[WEB TABANLI UYGULAMA GELİŞTİRME DERSİ ÖZET ÇALIŞMA SORULARI.docx](https://github.com/abdullah0912/WebDevelopment/files/9886645/WEB.TABANLI.UYGULAMA.GELISTIRME.DERSI.OZET.CALISMA.SORULARI.docx)
